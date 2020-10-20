@@ -1,0 +1,113 @@
+body{
+	background-color: #EDC2D8FF;
+	font-family: cursive;
+}
+
+header{
+	background-color: #8ABAD3FF;
+}
+h1{
+    text-align: center;
+}
+
+header nav{
+	max-width:1200px;
+	margin:0 auto;
+
+}
+
+header nav ul{
+	padding:0;
+	margin:0;
+	overflow:auto;
+}
+
+header nav ul li{
+	list-style: none;
+	float:left;
+}
+
+header nav ul li a{
+	color:#FCF6F5FF;
+	padding:20px;
+	float:left;
+	font-size:14px;
+	text-decoration: none;
+}
+nav ul li a.active{
+    background-color: #EDC2D8FF;
+    color: #8ABAD3FF;
+}
+
+header nav ul li a:hover{
+	color:#EDC2D8FF;
+}
+
+.title{
+	padding-top: 4rem;
+	text-transform: uppercase;
+	font-size: 800%;
+	font-weight: 1000;
+	color: #FCF6F5FF;
+	text-align: center;
+	background:  #8ABAD3FF;
+	background-image: url("https://static.wixstatic.com/media/e5bb7c_994caddaa7da49dbb1a0347170ceb987~mv2_d_3090_3089_s_4_2.jpg");
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip:text;
+    letter-spacing: 8px;
+}
+.about{
+   max-width: 200rem; 
+   height: 60vh;
+   margin-left: 2rem;
+}
+.about p{
+	margin-top: 1.5rem;
+	float: right;
+	padding-right: 1rem;
+	font-size: 528%;
+	color:  #8ABAD3FF;
+	line-height: 120px;
+	
+}
+
+.about img{
+	margin-top: 3rem;
+	padding-left: 1rem;
+	
+}
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  padding-top: 1.5rem;
+  float: left;
+  padding: 1rem;
+}*/
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+ /*button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #8ABAD3FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.7;
+}*/
+.card img{
+	margin-top: 2.5rem;
+	padding: 6px;
+}
